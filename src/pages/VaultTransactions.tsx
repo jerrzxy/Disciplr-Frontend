@@ -21,6 +21,7 @@ const TX_LABELS: Record<string, string> = {
   validate: "Milestone Validated",
   release: "Funds Released",
   redirect: "Funds Redirected",
+  unknown: "Unknown Transaction",
 };
 
 function fmtDateTime(iso: string): string {
